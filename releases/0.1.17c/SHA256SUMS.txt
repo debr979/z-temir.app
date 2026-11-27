@@ -1,0 +1,5 @@
+30e5136d6aafa1f1742caab1ed6c0ccdb928eb3552ced1ef6505a02cbf559f25  z-temir-0.1.17c-linux-amd64.tar.gz
+fb51707aadd7686f69caae4fb9e4bfe79497ed567ff509610bbee3f612136235  z-temir-0.1.17c-macos-amd64.zip
+7b2265858b71012e7645d8bdb7287d3ddab4f4363780b3011f63242d47b25fed  z-temir-0.1.17c-macos-arm64.zip
+8b7a6ee13568469b6b8dd1445a2d89c6a0a4958f55d9e4a47e3db40ee5e43347  z-temir-0.1.17c-windows-amd64.zip
+cef295a538559f63f0af4aabbcd41237c942b3d801266de927c05bb1f4f50c8e  z-temir-0.1.17c-windows-arm64.zip
