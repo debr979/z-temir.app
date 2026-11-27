@@ -1,0 +1,11 @@
+{
+  "version": "0.1.18",
+  "files": [
+    "SHA256SUMS.txt",
+    "z-temir-0.1.18-linux-amd64.tar.gz",
+    "z-temir-0.1.18-macos-amd64.zip",
+    "z-temir-0.1.18-macos-arm64.zip",
+    "z-temir-0.1.18-windows-amd64.zip",
+    "z-temir-0.1.18-windows-arm64.zip"
+  ]
+}

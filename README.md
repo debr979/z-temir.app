@@ -1,14 +1,14 @@
 # z-temir
 
-z-temir 的安裝檔。最新版：**0.1.17c**
+z-temir 的安裝檔。最新版：**0.1.18**
 
 | 平台 | 下載 |
 |---|---|
-| macOS（Apple 晶片 M1/M2/M3…） | [z-temir-0.1.17c-macos-arm64.zip](releases/0.1.17c/z-temir-0.1.17c-macos-arm64.zip) |
-| macOS（Intel） | [z-temir-0.1.17c-macos-amd64.zip](releases/0.1.17c/z-temir-0.1.17c-macos-amd64.zip) |
-| Windows（x64） | [z-temir-0.1.17c-windows-amd64.zip](releases/0.1.17c/z-temir-0.1.17c-windows-amd64.zip) |
-| Windows（ARM） | [z-temir-0.1.17c-windows-arm64.zip](releases/0.1.17c/z-temir-0.1.17c-windows-arm64.zip) |
-| Linux（x64） | [z-temir-0.1.17c-linux-amd64.tar.gz](releases/0.1.17c/z-temir-0.1.17c-linux-amd64.tar.gz) |
+| macOS（Apple 晶片 M1/M2/M3…） | [z-temir-0.1.18-macos-arm64.zip](releases/0.1.18/z-temir-0.1.18-macos-arm64.zip) |
+| macOS（Intel） | [z-temir-0.1.18-macos-amd64.zip](releases/0.1.18/z-temir-0.1.18-macos-amd64.zip) |
+| Windows（x64） | [z-temir-0.1.18-windows-amd64.zip](releases/0.1.18/z-temir-0.1.18-windows-amd64.zip) |
+| Windows（ARM） | [z-temir-0.1.18-windows-arm64.zip](releases/0.1.18/z-temir-0.1.18-windows-arm64.zip) |
+| Linux（x64） | [z-temir-0.1.18-linux-amd64.tar.gz](releases/0.1.18/z-temir-0.1.18-linux-amd64.tar.gz) |
 
 檔案的 SHA-256 在各版本資料夾的 `SHA256SUMS.txt`。
 
@@ -20,4 +20,5 @@ z-temir 的安裝檔。最新版：**0.1.17c**
 
 ## 所有版本
 
+- [0.1.18](releases/0.1.18)
 - [0.1.17c](releases/0.1.17c)
