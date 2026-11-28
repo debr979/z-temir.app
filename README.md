@@ -1,8 +1,10 @@
 # z-temir
 
+[English](README.en.md) · **繁體中文** · [简体中文](README.zh-CN.md) · [日本語](README.ja.md)
+
 z-temir 是一個給開發者用的終端機：分頁、專案、巨集（一鍵執行常用指令）、環境變數，還有可以浮在最上層的巨集面板。支援 macOS、Windows 和 Linux。
 
-![z-temir](docs/screenshots/main.png)
+![z-temir](docs/screenshots/zh-TW/main.png)
 
 最新版：**0.1.18**
 
@@ -28,7 +30,7 @@ z-temir 是一個給開發者用的終端機：分頁、專案、巨集（一鍵
 
 z-temir 會在啟動時和之後每 6 小時檢查一次有沒有新版。有新版時，標題列右上角會出現藍色的「**有新版本 x.y.z**」按鈕：
 
-![有新版本](docs/screenshots/update.png)
+![有新版本](docs/screenshots/zh-TW/update.png)
 
 按下去確認後，z-temir 會：
 
@@ -44,7 +46,7 @@ z-temir 會在啟動時和之後每 6 小時檢查一次有沒有新版。有新
 - z-temir 要能寫入它所在的資料夾。macOS 放在「應用程式」裡需要是管理者帳號。
 - macOS 自動更新後不會再跳出「無法驗證開發者」。
 
-![設定](docs/screenshots/settings.png)
+![設定](docs/screenshots/zh-TW/settings.png)
 
 設定裡的「開發版更新 token」不用填。沒填就是從這個 repo 收公開版更新。
 
@@ -65,7 +67,7 @@ z-temir 會在啟動時和之後每 6 小時檢查一次有沒有新版。有新
 - 分頁名稱是目前所在的資料夾。前面的綠色 ✓ 表示這個分頁套用了環境變數。
 - 綠燈在閃，表示分頁裡有指令跑超過 2 秒（例如 `yarn dev`、`go run .`）。滑鼠移上去會顯示是哪個指令。
 - **拖曳**分頁可以調整順序，拖曳時按 Esc 取消。
-- 在分頁上按**右鍵**可以「重新命名」、「使用資料夾名稱」或「關閉分頁」。
+- 在分頁上按**右鍵**可以「重新命名」、「恢復使用資料夾名稱」或「關閉分頁」。
 - 設定裡打開「新分頁沿用目前資料夾」，新分頁就會從目前分頁的資料夾開始。
 
 ### 專案
@@ -87,11 +89,11 @@ z-temir 會在啟動時和之後每 6 小時檢查一次有沒有新版。有新
   - **有未 commit 的更動時提醒**：目前資料夾的 git 有沒 commit 的檔案時先警告；
   - 重新命名、複製、刪除。
 
-![資料夾選單](docs/screenshots/folder-menu.png)
+![資料夾選單](docs/screenshots/zh-TW/folder-menu.png)
 
 有「需要確認」的巨集會先顯示要跑的指令。有開 git 提醒、而且目前資料夾有未 commit 的更動時，會列出改了哪些檔案：
 
-![未 commit 的更動](docs/screenshots/git-check.png)
+![未 commit 的更動](docs/screenshots/zh-TW/git-check.png)
 
 ### 環境變數
 
@@ -113,7 +115,7 @@ z-temir 會在啟動時和之後每 6 小時檢查一次有沒有新版。有新
 - **Enter** 換行；
 - **⌘Enter**（Windows/Linux 是 Ctrl+Enter）或 ▶ 執行。
 
-![編輯模式](docs/screenshots/composer.png)
+![編輯模式](docs/screenshots/zh-TW/composer.png)
 
 ### 浮動巨集面板
 
@@ -121,13 +123,13 @@ z-temir 會在啟動時和之後每 6 小時檢查一次有沒有新版。有新
 
 面板的巨集會在主視窗目前的分頁執行，確認和 git 提醒的規則跟側邊欄一樣。
 
-![浮動巨集面板](docs/screenshots/float.png)
+![浮動巨集面板](docs/screenshots/zh-TW/float.png)
 
 ### 外觀
 
 設定裡可以調整：
 
-- 外觀（跟隨系統、淺色、深色）；
+- 外觀（系統、淺色、深色）；
 - 配色（6 種）；
 - 終端機背景圖片和遮罩深淺；
 - 字型大小；
